@@ -1,5 +1,19 @@
-# scrimba-oldagram
-Scrimba Solo Project
+# Scrimba-Oldagram Solo Project
+The is the Solo Project for Scrimba's Module 4 - Essential CSS Concepts of the Frontend Career Path
+
+The requirements for this project were:
+
+- [Change icons on hover]
+- [Use Javascript to render out all three posts]
+- [Increase the likes when double-clicking the post]
+
+I added:
+
+- [Change the highlight color of the like button when clicked]
+- [Increase the likes by one when clicking the like button]
+- [Decrement the likes when clicked and removing the highlight color]
+
+
 
 ## About Scrimba
 
