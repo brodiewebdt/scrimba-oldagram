@@ -1,0 +1,117 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 0.8125rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rounded {
+    border-radius: 50%;
+    height: 34px;
+    width: 34px;
+}
+
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+/************ Typography ****************/
+p {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    margin: 0 auto 2rem;
+    width: 375px;
+    outline: 2px solid #ddd;
+}
+
+section {
+    margin-bottom: 2rem;
+    width: 375px;
+
+    outline: 2px solid #ddd;
+}
+
+.card-header,
+.post-meta,
+.card-footer {
+    padding: 1rem;
+}
+
+.card-header {
+    align-items: center;
+    justify-content: space-between;
+
+    border-bottom: 1px solid #c6c6c6;
+}
+
+.logo {
+    width: 125px;
+}
+
+.post-meta {
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.author-meta {
+    flex-direction: column;
+}
+
+.comments {
+    padding: 1rem;
+}
+
+.social {
+    margin-bottom: 1.25rem;
+}
+
+.social i {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.75rem;
+    height: auto;
+    margin-right: 1rem;
+}
+
+.liked {
+    color: red;
+}
+
+.social i:hover,
+.social i:focus {
+    opacity: 0.6;
+}
+
+.likes {
+    margin-bottom: 0.5rem;
+}
+
+.bold {
+    font-weight: 700;
+}
